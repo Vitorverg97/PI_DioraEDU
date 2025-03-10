@@ -3,7 +3,7 @@
 
 This is the Integrated Project DioraEDU - *Accessing Education*
 
-This project is being developed with the aim of filling a gap left during the pandemic in education, as well as the lag in school administration and making the learning environment more effective for students in both the private and public networks.
+This project is being developed with the aim of filling a gap left during the pandemic in education, as well as the lag in school administration and making the learning environment more effective for students from private and public schools.
 
 **PT-BR:**
 
