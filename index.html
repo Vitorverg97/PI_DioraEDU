@@ -4,51 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icon/Brain_Lamp.png" type="image/png" sizes="64x64">
-    <link rel="stylesheet" href="style.css">
+    
     <title>DioraEDU</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>DioraEDU</h1>
-    
-    <h2>Acessando a Educação</h2>
-    <hr>
-    <br>
-    
-    <strong><p>Menu</p></strong>
-   
-    <p>Alternar Matéria</p>
-    <p>Biblioteca</p>
-    <p>Loja</p>
-    <p>Vidas</p>
-    <p>Perfil</p>
-    <br>
-    <h3>Matemática</h3>
-<h4>Aula + Atividade</h4>
-<h5>Frações</h5>
-<p>7 Exercícios</p>
-<p><strong>3 Vidas</strong></p>
+  <header>
+    <img src="logo.png" alt="Logo DioraEDU">
+    <h1>Matemática</h1>
+    <button id="menu-btn">&#9776;</button>
+  </header>
 
-<h4>Aula + Exercícios de fixação</h4>
-<h5>Funções do Primeiro Grau</h5>
-<p>4 Exercícios</p>
-<p><strong>3 Vidas</strong></p>
+  <main>
+    <section class="card aula-atividade">
+      <h2>Aula + Atividade</h2>
+      <p>Aula de frações</p>
+      <p>7 Exercícios</p>
+      <div class="vidas"><span>5</span> Vidas</div>
+    </section>
 
-<h4>Desafio</h4>
-<h5>Problema Matemático: Quantos anagramas possui a profissão "Otorrinolaringologista"?</h5>
-<p><strong>3 Vidas</strong></p>
-<p><strong>Home</strong></p>
-<br>
+    <section class="card aula-fixacao">
+      <h2>Aula + Exercícios de fixação</h2>
+      <p>Funções do primeiro grau</p>
+      <p>4 Exercícios</p>
+      <div class="vidas"><span>5</span> Vidas</div>
+    </section>
 
-<h3>Biblioteca</h3>
+    <section class="card desafio">
+      <h2>Desafio</h2>
+      <p>Problema matemático: <br>Anagramas de Otorrinolaringologista</p>
+      <div class="vidas"><span>5</span> Vidas</div>
+    </section>
+  </main>
 
-<h4>Livros</h4>
-<p>Gramática - 8º ano: De A a Z</p>
-<p>Matemática- 8º ano: Por A + B</p>
-<h4>Slides</h4>
-<p>Português: Aula02 - Gêneros Textuais.pptx</p>
-<p>Matemática: Aula02 - Os Princípios Fundamentais da Contagem.pptx</p>
-<br>
-<hr>
-<p>Copyright &copy; 2025 | Scriptando.ltda</p>
+  <footer>
+    <nav>
+      <button>🏠</button>
+      <button>📝</button>
+      <button id="vidas-btn">❤️ <span id="vidas-count">5</span></button>
+      <button>👤</button>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
