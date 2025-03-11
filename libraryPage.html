@@ -8,14 +8,41 @@
     <title>DioraEDU</title>
 </head>
 <body>
-    <h3>Biblioteca</h3>
+    <header>
+        <img src="logos/logo.png" alt="Logo do DioraEDU">
+        <h1>Biblioteca</h1>
+        <button id="menu-btn">&#9776;</button>
+    </header>
+    
+    <main>
+           
+        <section class="card Voltar"
+          onclick="window.location.href='index.html'">
+          <h2>Matemática</h2>
+        </section>
 
-<h4>Livros</h4>
-<p>Gramática - 8º ano: De A a Z</p>
-<p>Matemática- 8º ano: Por A + B</p>
-<h4>Slides</h4>
-<p>Português: Aula02 - Gêneros Textuais.pptx</p>
-<p>Matemática: Aula02 - Os Princípios Fundamentais da Contagem.pptx</p>
+        <section class="card Livros">
+          <p>Gramática_-_8º_ano:_De_A_a_Z.pdf</p>
+          <p>Matemática_-_8º_ano:_Por_A_+_B.pdf</p>
+        </section>
+
+        <section class="card Slides">
+          <p>Português: Aula02_-_Gêneros Textuais.pptx</p>
+          <p>Matemática: Aula02_-_Os_Princípios_Fundamentais_da_Contagem.pptx</p>
+        </section>
+        
+    </main>
+
+<footer>
+    <nav>
+      <button>🏠</button>
+      <button>📝</button>
+      <button id="vidas-btn">❤️ <span id="vidas-count">5</span></button>
+      <button>👤</button>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
 <br>
 <hr>
 <p>Copyright &copy; 2025 | Scriptando.ltda</p>
