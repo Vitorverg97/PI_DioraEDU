@@ -8,22 +8,38 @@
     <title>DioraEDU</title>
 </head>
 <body>
-    <h3>Português</h3>
-<h4>Aula + Atividade</h4>
-<h5>Classes Gramaticais</h5>
-<p>3 Exercícios</p>
-<p><strong>3 Vidas</strong></p>
+    <header>
+        <img src="logos/logo.png" alt="Logo do DioraEDU">
+        <h1>Português</h1>
+        <button id="menu-btn">&#9776;</button>
+    </header>
 
-<h4>Aula + Exercícios de fixação</h4>
-<h5>Acento Indicativo de Crase</h5>
-<p>3 Exercícios</p>
-<p><strong>3 Vidas</strong></p>
+<main>
+    <section class="card Aula"
+      onclick="window.location.href='www.youtube.com/watch?v=UN-BZbL0UJg'">
+      <p>Aula de Crase</p>
+    </section>
+    
+    <section class="card Alternar matéria"
+      onclick="window.location.href='index.html'">
+      <h2>Matemática</h2>
+    </section>
+    
+    <section class="Biblioteca"
+      onclick="window.location.href='libraryPage.html'">
+    </section>
+    </main>
 
-<h4>Desafio</h4>
-<h5>Interpretação de Texto: Qual a ideia que o escritor de carta á Portugal durante a chegada dos portuguẽs à nova terra?</h5>
-<p><strong>3 Vidas</strong></p>
+<footer>
+    <nav>
+      <button>🏠</button>
+      <button>📝</button>
+      <button id="vidas-btn">❤️ <span id="vidas-count">5</span></button>
+      <button>👤</button>
+    </nav>
+  </footer>
 
-<P><strong>Home</strong></P>
+  <script src="script.js"></script>
 <br>
 <hr>
 <p>Copyright &copy; 2025 | Scriptando.ltda</p>
