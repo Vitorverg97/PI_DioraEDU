@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
-    // Exemplo: clicar em cada card perde 1 vida
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => {
       card.addEventListener('click', () => {
